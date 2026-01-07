@@ -1,9 +1,9 @@
 <?php
 // Configurações do banco de dados
 $host = 'localhost';
-$username = 'u566100020_Clinica';
-$password = 'Romulo@130948A';
-$database = 'u566100020_ClinicaTemplat';
+$username = '';
+$password = '';
+$database = '';
 
 // Criar conexão
 $conn = new mysqli($host, $username, $password, $database);
@@ -28,4 +28,5 @@ $mysqli = $conn;
 // Variável para uso em includes
 $baseUrl = BASE_URL;
 ?>
+
 
