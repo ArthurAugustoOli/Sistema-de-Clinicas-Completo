@@ -1,0 +1,90 @@
+✅ FEITO 100%
+☑️ Feito porém com detalhes faltando
+❌ Não feito / não vou fazer
+
+
+Funcionalidades Principais ================================================================================================================
+
+Cadastro de Pacientes e Prontuário Eletrônico ✅
+
+Cadastro completo de dados pessoais dos pacientes (nome, contato, endereço, documentos).✅
+
+Paciente com foto de perfil.✅
+
+Registro detalhado de histórico médico e consultas.✅
+
+Anexação de arquivos como exames, imagens e documentos ao prontuário.☑️
+
+Agendamento e Gestão de Consultas ✅
+
+Calendário com visão diária, semanal, mensal e anual.✅
+
+Agendamento, remarcação e cancelamento simplificado de consultas. ✅
+
+Registro automático do status da consulta: agendada, cancelada, desmarcada, atrasada ou em atendimento.✅
+
+Configuração de bloqueios na agenda (ex.: horário de almoço, feriados).✅
+
+Confirmação automática e notificações via SMS, WhatsApp ou e-mail. (falar com a Alice)
+
+Gestão Financeira =================================================================================================================
+
+Registro dos valores das consultas e procedimentos realizados. ✅
+
+Controle de pagamentos realizados por pacientes. ✅
+
+Cadastro e gestão de fornecedores.
+
+Relatórios financeiros básicos (faturamento, valores pendentes). ✅
+
+Status em tempo real: atrasado, aguardando, em atendimento ou finalizado. ✅
+
+Jornada do Paciente  =================================================================================================================
+
+Histórico detalhado das interações e consultas realizadas. ✅
+
+
+Controle de Usuários e Segmentação de Acesso ✅
+
+Cadastro de diferentes perfis de usuários (administração, recepção, médicos).✅/❌
+
+Segmentação de funcionalidades e permissões conforme o tipo de usuário. ✅
+
+Integração com sistemas de pagamento (cartão de crédito, boleto, PIX).
+
+Fluxo de Uso  =================================================================================================================
+
+Recepcionista realiza cadastro ou check-in do paciente ao chegar.✅
+
+Agendamento ou remarcação das consultas é feito diretamente pela agenda do sistema. ✅
+
+Paciente recebe confirmação da consulta por canais automáticos.
+
+O profissional de saúde acessa o prontuário eletrônico durante a consulta. ✅
+
+O financeiro registra pagamentos e emite relatórios periodicamente. ✅
+ 
+
+Funcionais  =================================================================================================================
+
+Interface amigável e fácil navegação.✅
+
+Cadastro ágil e intuitivo de pacientes e consultas.✅
+
+Alertas automáticos sobre alterações na agenda ou atrasos.✅
+
+Backup periódico automático dos dados.
+
+Segurança de dados dos pacientes (LGPD).✅
+
+Tempo rápido de resposta.✅
+
+Acesso multiplataforma (desktop e mobile).✅
+
+Diferenciais Possíveis  =================================================================================================================
+
+Dashboard com métricas gerais da clínica (tempo médio de espera, consultas realizadas, faturamento diário).✅/❌
+
+Suporte a múltiplas unidades clínicas. ✅
+
+Chat integrado para comunicação interna entre funcionários e equipes médicas. Esconder✅

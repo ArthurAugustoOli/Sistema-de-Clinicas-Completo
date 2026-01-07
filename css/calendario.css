@@ -1,0 +1,79 @@
+/* Estilos para o contador de eventos por dia */
+.day-event-count {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #4e73df;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Estilos para o preview de consultas */
+.consultas-preview {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.consulta-preview-item {
+  border-left: 4px solid #4e73df;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.consulta-preview-item.bg-success {
+  border-left-color: #1cc88a;
+}
+
+.consulta-preview-item.bg-danger {
+  border-left-color: #e74a3b;
+}
+
+.consulta-preview-item.bg-info {
+  border-left-color: #36b9cc;
+}
+
+.consulta-preview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.consulta-preview-header h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.consulta-preview-body {
+  font-size: 14px;
+}
+
+.consulta-preview-body p {
+  margin-bottom: 5px;
+}
+
+.consulta-preview-footer {
+  margin-top: 10px;
+  text-align: right;
+}
+
+/* Estilos para os detalhes da consulta */
+.consulta-detalhes {
+  padding: 10px;
+}
+
+.consulta-detalhes p {
+  margin-bottom: 8px;
+}
+

@@ -1,0 +1,451 @@
+/* Responsive Styles for Clinic Management System */
+
+/* Base Mobile Styles */
+@media (max-width: 991.98px) {
+    /* General Layout */
+    .container-fluid {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    /* Dashboard Cards */
+    .card {
+      margin-bottom: 15px;
+    }
+  
+    /* Tables */
+    .table-responsive {
+      border: 0;
+    }
+  
+    /* Forms */
+    .form-group {
+      margin-bottom: 15px;
+    }
+  
+    /* Buttons */
+    .btn {
+      padding: 0.375rem 0.75rem;
+    }
+  
+    /* Content Spacing */
+    .content-wrapper {
+      padding-top: 70px;
+    }
+  
+    /* Calendar Responsiveness */
+    .calendar-container {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 10px;
+      margin: 0 -10px;
+      width: calc(100% + 20px);
+    }
+  
+    .calendar-container table {
+      min-width: 100%;
+      table-layout: fixed;
+    }
+  
+    .calendar-container th,
+    .calendar-container td {
+      text-align: center;
+      vertical-align: middle;
+      padding: 0.35rem;
+      width: 14.28%;
+    }
+  
+    .calendar-day {
+      height: 35px;
+      width: 35px;
+      font-size: 0.85rem;
+    }
+  }
+  
+  /* Small Devices */
+  @media (max-width: 767.98px) {
+    /* Dashboard Layout */
+    .row > [class*="col-"] {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    /* Card Adjustments */
+    .card-body {
+      padding: 15px;
+    }
+  
+    /* Quick Actions */
+    .quick-action {
+      font-size: 0.85rem;
+      padding: 0.75rem 0.5rem;
+    }
+  
+    .quick-action i {
+      font-size: 1.75rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+  
+    /* Calendar */
+    .calendar-container td {
+      height: 35px;
+      width: 35px;
+      padding: 0.25rem;
+    }
+  
+    .calendar-day {
+      height: 32px;
+      width: 32px;
+      font-size: 0.8rem;
+    }
+  
+    .calendar-container th {
+      font-size: 0.8rem;
+      padding: 0.25rem;
+    }
+  
+    /* Charts */
+    .chart-container {
+      height: 180px;
+    }
+  
+    /* Modals */
+    .modal-dialog {
+      margin: 0.5rem;
+    }
+  
+    /* Tabs */
+    .nav-tabs .nav-link {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.85rem;
+    }
+  
+    /* Pagination */
+    .pagination {
+      flex-wrap: wrap;
+    }
+  
+    .pagination .page-link {
+      padding: 0.25rem 0.5rem;
+      font-size: 0.85rem;
+    }
+  
+    /* Stats Cards */
+    .stats-card .card-title {
+      font-size: 1.5rem;
+    }
+  
+    .stats-card .icon-circle {
+      width: 45px;
+      height: 45px;
+    }
+  
+    .stats-card .icon-circle i {
+      font-size: 1.25rem !important;
+    }
+  
+    /* Add padding to body for mobile navigation */
+    body.has-mobile-nav {
+      padding-bottom: 65px !important;
+    }
+  
+    /* Chat and Notifications Improvements */
+    .chat-container {
+      flex-direction: column !important;
+      height: 500px !important;
+    }
+  
+    .chat-users {
+      width: 100% !important;
+      height: 200px !important;
+      border-right: none !important;
+      border-bottom: 1px solid var(--chat-gray) !important;
+    }
+  
+    .notifications-dropdown {
+      width: 300px !important;
+      max-width: 90vw !important;
+      left: auto !important;
+      right: -10px !important;
+    }
+  }
+  
+  /* Extra Small Devices */
+  @media (max-width: 575.98px) {
+    /* Dashboard Stats */
+    .card-title {
+      font-size: 1.25rem;
+    }
+  
+    /* User Profile */
+    .user-avatar.large {
+      width: 50px;
+      height: 50px;
+    }
+  
+    /* Form Controls */
+    .form-control {
+      font-size: 0.9rem;
+    }
+  
+    /* Buttons */
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .btn-group .btn {
+      border-radius: 0.25rem !important;
+      margin-bottom: 0.25rem;
+    }
+  
+    /* Tables */
+    .table th,
+    .table td {
+      padding: 0.5rem;
+      font-size: 0.85rem;
+    }
+  
+    /* List Groups */
+    .list-group-item {
+      padding: 0.75rem;
+    }
+  
+    /* Alerts */
+    .alert {
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+    }
+  
+    /* Breadcrumbs */
+    .breadcrumb {
+      display: none;
+    }
+  
+    /* Dashboard Cards Stacking */
+    .row {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+  
+    /* Calendar Specific */
+    .calendar-container {
+      margin: 0 -15px;
+      width: calc(100% + 30px);
+      padding: 0 15px;
+    }
+  
+    .calendar-day {
+      height: 28px;
+      width: 28px;
+      font-size: 0.75rem;
+    }
+  
+    .calendar-container th {
+      font-size: 0.7rem;
+    }
+  
+    .btn-group.calendar-controls {
+      flex-direction: row;
+    }
+  
+    .btn-group.calendar-controls .btn {
+      margin-bottom: 0;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.75rem;
+    }
+  
+    /* Chart Containers */
+    .chart-container {
+      height: 160px;
+    }
+  
+    /* Notification Dropdown Position */
+    .notifications-dropdown {
+      right: -50px !important;
+    }
+  }
+  
+  /* Touch-friendly Improvements */
+  @media (hover: none) {
+    /* Make buttons larger for touch */
+    .btn {
+      min-height: 44px;
+    }
+  
+    /* Increase spacing between clickable elements */
+    .list-group-item,
+    .dropdown-item,
+    .nav-link {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  
+    /* Improve form controls */
+    input,
+    select,
+    textarea {
+      font-size: 16px !important; /* Prevents iOS zoom on focus */
+    }
+  
+    /* Larger checkboxes and radio buttons */
+    .form-check-input {
+      width: 1.2em;
+      height: 1.2em;
+    }
+  
+    /* Calendar touch improvements */
+    .calendar-day {
+      min-height: 36px;
+      min-width: 36px;
+    }
+  }
+  
+  /* Animations for Mobile */
+  @keyframes slideInUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .mobile-slide-in {
+    animation: slideInUp 0.3s ease-out;
+  }
+  
+  /* Pull-to-refresh indicator */
+  .ptr-indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+    z-index: 1000;
+  }
+  
+  .ptr-indicator.visible {
+    transform: translateY(0);
+  }
+  
+  .ptr-spinner {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #4e73df;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: ptr-rotate 0.8s linear infinite;
+  }
+  
+  @keyframes ptr-rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* CORREÇÃO: Navegação móvel fixa na parte inferior */
+  .mobile-bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    background: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1.5rem 1.5rem 0 0;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .mobile-bottom-nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    color: #6c757d;
+    transition: all 0.3s;
+    text-decoration: none;
+    flex: 1;
+  }
+  
+  .mobile-bottom-nav-item.active {
+    color: var(--primary-color);
+  }
+  
+  .mobile-bottom-nav-item i {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .mobile-bottom-nav-item span {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  /* Adicionar espaço no final da página para a navegação móvel */
+  body.has-mobile-nav {
+    padding-bottom: 65px;
+  }
+  
+  /* Melhorias para o chat e notificações */
+  @media (max-width: 767.98px) {
+    /* Chat Responsivo */
+    .chat-container2 {
+      flex-direction: column !important;
+      height: 500px !important;
+    }
+  
+    .chat-users {
+      width: 100% !important;
+      height: 200px !important;
+      border-right: none !important;
+      border-bottom: 1px solid #f0f0f0 !important;
+    }
+  
+    .chat-area {
+      flex: 1 !important;
+    }
+  
+    .message-bubble {
+      max-width: 85% !important;
+    }
+  
+    .message-content {
+      padding: 10px 12px !important;
+      font-size: 13px !important;
+    }
+  
+    /* Notificações Responsivas */
+    .notifications-dropdown {
+      width: 300px !important;
+      max-width: 90vw !important;
+      left: auto !important;
+      right: -10px !important;
+    }
+  
+    .notification-item {
+      padding: 10px !important;
+    }
+  
+    .icon-circle {
+      width: 35px !important;
+      height: 35px !important;
+    }
+  }
+  
+  

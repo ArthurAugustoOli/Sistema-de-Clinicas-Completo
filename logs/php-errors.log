@@ -1,0 +1,51 @@
+[21-Mar-2025 00:16:21 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php:118
+Stack trace:
+#0 C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php(118): mysqli_stmt->bind_param('sssssssississss...', '12312312321', 'SouFodinha', '2025-03-02', false, '12312313212', NULL, '', 0, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php on line 118
+[21-Mar-2025 00:17:44 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php:118
+Stack trace:
+#0 C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php(118): mysqli_stmt->bind_param('sssssssssssssss...', '12312313212', 'SouFodinha', '2025-03-09', false, '12312313231', NULL, '', 0, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php on line 118
+[21-Mar-2025 00:19:42 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php:118
+Stack trace:
+#0 C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php(118): mysqli_stmt->bind_param('sssssssisssssss...', '12312312321', 'SouFodinha', '2025-03-02', false, '11111111111', NULL, '', 0, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php on line 118
+[21-Mar-2025 00:19:43 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php:118
+Stack trace:
+#0 C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php(118): mysqli_stmt->bind_param('sssssssisssssss...', '12312312321', 'SouFodinha', '2025-03-02', false, '11111111111', NULL, '', 0, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php on line 118
+[21-Mar-2025 00:19:44 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php:118
+Stack trace:
+#0 C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php(118): mysqli_stmt->bind_param('sssssssisssssss...', '12312312321', 'SouFodinha', '2025-03-02', false, '11111111111', NULL, '', 0, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php on line 118
+[21-Mar-2025 00:19:44 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php:118
+Stack trace:
+#0 C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php(118): mysqli_stmt->bind_param('sssssssisssssss...', '12312312321', 'SouFodinha', '2025-03-02', false, '11111111111', NULL, '', 0, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php on line 118
+[21-Mar-2025 00:19:44 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php:118
+Stack trace:
+#0 C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php(118): mysqli_stmt->bind_param('sssssssisssssss...', '12312312321', 'SouFodinha', '2025-03-02', false, '11111111111', NULL, '', 0, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php on line 118
+[21-Mar-2025 00:20:20 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php:118
+Stack trace:
+#0 C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php(118): mysqli_stmt->bind_param('sssssisisssssss...', '12312312321', 'SouFodinha', '2025-03-02', false, '11111111111', NULL, '', 0, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php on line 118
+[21-Mar-2025 00:20:39 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php:118
+Stack trace:
+#0 C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php(118): mysqli_stmt->bind_param('sssssisisssssss...', '12312311023', 'SouFodinha', '2025-03-10', false, '12312313212', NULL, '', 0, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php on line 118
+[21-Mar-2025 00:25:28 America/Sao_Paulo] Valores a serem inseridos: {"cpf":"12387017239","nome":"SouFodinha","data_nasc":"2025-03-02","email":null,"telefone":"12312312312","doencas":null,"alergias":null,"tem_convenio":0,"convenio":null,"numero_convenio":null,"tipo_sanguineo":null,"nome_contato_emergencia":null,"numero_contato_emergencia":null,"filiacao_contato_emergencia":null,"condicoes_medicas":null,"remedios_em_uso":null,"foto_perfil":null}
+[21-Mar-2025 00:25:28 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php:150
+Stack trace:
+#0 C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php(150): mysqli_stmt->bind_param('sssssssississss...', '12387017239', 'SouFodinha', '2025-03-02', NULL, '12312312312', NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\ClinicaTemplateCerto\api\pacientes\criar.php on line 150
